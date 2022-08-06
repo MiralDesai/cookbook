@@ -23,10 +23,11 @@ const config = {
   themeConfig: {
     navbar: {
       title: 'Cookbook',
-      hideOnScroll: true,
+      hideOnScroll: false,
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
+        srcDark: "img/logo_dark.svg"
       },
       items: [
         {
@@ -37,7 +38,6 @@ const config = {
         }
       ],
     },
-    footer: {},
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
