@@ -30,12 +30,6 @@ const config = {
         srcDark: "img/logo_dark.svg"
       },
       items: [
-        {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'Recipes',
-        }
       ],
     },
     prism: {
