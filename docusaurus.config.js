@@ -44,7 +44,6 @@ const config = {
           routeBasePath: 'recipes',
           path: 'recipes',
           sidebarPath: require.resolve('./sidebars.js'),
-          showLastUpdateTime: true,
         },
         blog: false,
         theme: {
