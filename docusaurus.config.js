@@ -14,8 +14,9 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   // GitHub pages deployment config.
-  organizationName: 'MiralDesai', // Usually your GitHub org/user name.
-  projectName: 'cookbook', // Usually your repo name.
+  organizationName: 'MiralDesai',
+  projectName: 'cookbook',
+  trailingSlash: false,
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
