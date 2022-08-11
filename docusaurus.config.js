@@ -9,7 +9,7 @@ const config = {
   title: 'Cookbook',
   tagline: 'A collection of recipes built on top of docusaurus',
   url: 'https://miraldesai.github.io',
-  baseUrl: '/cookbook',
+  baseUrl: '/cookbook/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
