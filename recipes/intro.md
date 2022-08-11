@@ -1,6 +1,7 @@
 ---
 title: Hello from Docusaurus
-description: Create a doc page with rich content.
+pagination_next: null
+pagination_previous: null
 ---
 
 # Hello from Docusaurus
