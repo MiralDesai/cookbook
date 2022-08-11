@@ -10,7 +10,7 @@ const config = {
   tagline: 'A collection of recipes built on top of docusaurus',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   // GitHub pages deployment config.
@@ -44,29 +44,26 @@ const config = {
           routeBasePath: 'recipes',
           path: 'recipes',
           sidebarPath: require.resolve('./sidebars.js'),
+          breadcrumbs: false,
+        },
+        theme: {
+          customCss: require.resolve('./src/styles/custom.scss'),
         },
         blog: false,
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
       },
     ],
   ],
   themes: [
-    // ... Your other themes.
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
-        // ... Your options.
-        // `hashed` is recommended as long-term-cache of index file is possible.
         hashed: true,
-        // For Docs using Chinese, The `language` is recommended to set to:
-        // ```
-        // language: ["en", "zh"],
-        // ```
       },
     ],
   ],
+  plugins: [
+    'docusaurus-plugin-sass'
+  ]
 };
 
 module.exports = config;
