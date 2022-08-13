@@ -8,7 +8,10 @@ const sidebars = {
     {
       type: 'category',
       label: 'Main dishes',
-      items: ['main/mushroom_bour'],
+      items: [
+        'main/mushroom_bour',
+        'main/peanut_butter_curry'
+      ],
     },
     {
       type: 'category',
