@@ -130,6 +130,9 @@ html[data-theme='dark'] {
   }
 
   .menu__link--sublist {
+    font-weight: 600;
+    font-size: 0.938rem;
+    line-height: 100%;
     padding-inline-start: 0;
     padding-inline-end: 0;
 
@@ -159,6 +162,19 @@ html[data-theme='dark'] {
       font-weight: 600;
       font-size: 0.938rem;
       line-height: 100%;
+    }
+  }
+
+  .theme-doc-sidebar-item-link-level-1 {
+    >.menu__link {
+      color: var(--sidebar-category-c);
+
+      padding-inline-start: 0;
+      line-height: 100%;
+    }
+
+    >.menu__link--active {
+      color: var(--ifm-color-primary);
     }
   }
 }

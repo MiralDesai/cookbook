@@ -1,9 +1,14 @@
 const sidebars = {
   docs: [
     {
+      type: 'doc',
+      id: 'intro',
+      label: 'Introduction'
+    },
+    {
       type: 'category',
       label: 'Main dishes',
-      items: ['intro'],
+      items: ['main/mushroom_bour'],
     },
     {
       type: 'category',
