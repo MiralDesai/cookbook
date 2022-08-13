@@ -24,6 +24,8 @@ pagination_next: null
           1 Lime
 Pinch Chilli flakes
 Handful Spinach (optional)
+
+Serves: 4
 ```
 
 ### Instructions
