@@ -8,7 +8,10 @@ const sidebars = {
     {
       type: 'category',
       label: 'Desserts',
-      items: ['desserts/cherry_pie'],
+      items: [
+        'desserts/cherry_pie',
+        'desserts/chilli_chocolate_tart'
+      ],
     },
   ]
 };
