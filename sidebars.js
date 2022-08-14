@@ -8,6 +8,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Main dishes',
+      collapsed: false,
       items: [
         'main/mushroom_bour',
         'main/peanut_butter_curry',
@@ -17,9 +18,11 @@ const sidebars = {
     {
       type: 'category',
       label: 'Desserts',
+      collapsed: false,
       items: [
         'desserts/cherry_pie',
-        'desserts/chilli_chocolate_tart'
+        'desserts/chilli_chocolate_tart',
+        'desserts/vegan_mousse'
       ],
     },
   ]
