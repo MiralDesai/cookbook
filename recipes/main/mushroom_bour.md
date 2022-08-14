@@ -9,7 +9,6 @@ pagination_next: null
 ### Ingredients
 
 ```markdown
-
 4.5 tbsp Plain flour
   3 tbsp Tomato puree
   6 tbsp Olive oil

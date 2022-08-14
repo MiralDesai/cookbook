@@ -9,7 +9,6 @@ pagination_next: null
 ### Ingredients
 
 ```markdown
-
 2 400g tins Chickpeas (drained)
    400g can Coconut milk
     0.5 tsp Ground coriander

@@ -10,7 +10,8 @@ const sidebars = {
       label: 'Main dishes',
       items: [
         'main/mushroom_bour',
-        'main/peanut_butter_curry'
+        'main/peanut_butter_curry',
+        'main/mushroom_pasta'
       ],
     },
     {
