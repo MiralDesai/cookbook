@@ -48,4 +48,4 @@ Filling:
 
 `9. (Optional step) Use leftover dough to create a lattice or any other decorations of your choosing on top of the pie.`
 
-`10. Use the leftover dough lattice over pie and cook at 200C for 20 minutes until top has browned. Then cover in foil and cook for 30 minutes.`
+`10. Use the leftover dough lattice over pie and cook at 200°C for 20 minutes until top has browned. Then cover in foil and cook for 30 minutes.`

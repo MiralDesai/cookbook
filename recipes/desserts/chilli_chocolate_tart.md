@@ -35,7 +35,7 @@ Filling:
 
 `3. Roll the dough flat and gently press into the base and up the sides of the tart tin.`
 
-`4. Heat oven to 190C and blind bake for 15 minutes. After 15 minutes remove foil and baking beans, then glaze with milk. Bake again for 10 minutes (not blind).`
+`4. Heat oven to 190°C and blind bake for 15 minutes. After 15 minutes remove foil and baking beans, then glaze with milk. Bake again for 10 minutes (not blind).`
 
 `5. Add cream, milk, chilli flakes to a medium saucepan, and bring to boil. Leave to infuse for 1 hour.`
 
@@ -43,6 +43,6 @@ Filling:
 
 `7. Once boiled, pour cream over the chooclate to form a ganache. Once combined slowly add cornstartch to reach desired consistency.`
 
-`8. Reduce oven temp to 150C and bake for 15-20 minutes.`
+`8. Reduce oven temp to 150°C and bake for 15-20 minutes.`
 
 `9. Dust with cocoa powder and/or chilli powder before serving.`
