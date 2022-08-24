@@ -7,4 +7,4 @@ updates:
       time: "07:00"
     pull-request-branch-name:
       separator: "_"
-  open-pull-requests-limit: 10
+    open-pull-requests-limit: 10
