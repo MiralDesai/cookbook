@@ -14,20 +14,23 @@ permissions:
   contents: write
 
 jobs:
-  dependabot-merge-minor-patch:
+  dependabot:
     runs-on: ubuntu-latest
-    if: $${{ github.actor == 'dependabot[bot]' }}
+    if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
       - name: Dependabot metadata
-        id: dependency-metadata
-        uses: dependabot/fetch-metadata@v1.3.3
+        id: dependabot-metadata
+        uses: dependabot/fetch-metadata@v1.1.1
         with:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - name: Approve and Enable auto-merge for dependabot PRs
-        if: ${{ steps.dependabot-metadata.outputs.update-type == 'version-update:semver-minor' || steps.dependabot-metadata.outputs.update-type == 'version-update:semvar-patch' }}
-        run: |
-          gh pr review $PR_URL --approve --body "@dependabot merge"
+      - name: Approve a PR
+        run: gh pr review --approve "$PR_URL"
         env:
           PR_URL: ${{ github.event.pull_request.html_url }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
+      - name: Enable auto-merge for Dependabot PRs
+        if: ${{ steps.dependabot-metadata.outputs.update-type != 'version-update:semver-major' }}
+        run: gh pr merge --auto --squash "$PR_URL"
+        env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
