@@ -23,7 +23,8 @@ const sidebars = {
         'desserts/cherry_pie',
         'desserts/chilli_chocolate_tart',
         'desserts/vegan_mousse',
-        'desserts/espresso_brownies'
+        'desserts/espresso_brownies',
+        'desserts/mini_chocolate_tarts'
       ],
     },
   ]
