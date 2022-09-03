@@ -1,31 +1,18 @@
 ---
-title: Hello from Docusaurus
+title: Introduction
 pagination_next: null
 pagination_previous: null
 ---
 
-# Hello from Docusaurus
+# Introduction
 
-Are you ready to create the documentation site for your open source project?
+All recipes are vegeterian but some may contain eggs. I have found with most recipes you can replace each egg required
+with 1 tablespoons of oil and 2 tablespoon of water.
 
-## Headers
+import Card from '@site/src/components/Card';
+import CardGrid from '@site/src/components/CardGrid';
 
-will show up on the table of contents on the upper right
-
-So that your users will know what this page is all about without scrolling down or even without reading too much.
-
-## Only h2 and h3 will be in the TOC by default.
-
-You can configure the TOC heading levels either per-document or in the theme configuration.
-
-The headers are well-spaced so that the hierarchy is clear.
-
-- lists will help you
-- present the key points
-- that you want your users to remember
-  - and you may nest them
-    - multiple times
-
-## Custom ID headers {#custom-id}
-
-With `{#custom-id}` syntax you can set your own header ID.
+<CardGrid>
+  <Card href="/recipes/main/mushroom_bourguigon" title="Main dishes" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."/>
+  <Card href="/recipes/desserts/cherry_pie" title="Desserts" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."/>
+</CardGrid>

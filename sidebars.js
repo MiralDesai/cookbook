@@ -10,7 +10,7 @@ const sidebars = {
       label: 'Main dishes',
       collapsed: false,
       items: [
-        'main/mushroom_bour',
+        'main/mushroom_bourguigon',
         'main/peanut_butter_curry',
         'main/mushroom_pasta'
       ],

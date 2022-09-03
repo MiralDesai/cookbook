@@ -1,7 +1,6 @@
 import React from 'react';
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import HeroImage from '@site/static/img/hero.svg';
 
 const Container = styled.header`
@@ -20,13 +19,7 @@ const SVGContainer = styled.div`
 	overflow: hidden;
 `;
 
-const animeAnimation = keyframes`
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50% }
-  100% { background-position: 0% 50% }
-`;
-
-const Something = styled(Link)`
+const Button = styled(Link)`
   color: var(--ifm-button-color);
   display: inline - block;
   line-height: 1.5;
@@ -51,8 +44,6 @@ const Something = styled(Link)`
 `;
 
 const Header = () => {
-  const { siteConfig } = useDocusaurusContext();
-
   return (
     <Container>
       <div>
@@ -60,9 +51,9 @@ const Header = () => {
           <HeroImage title="Docusaurus Logo" />
         </SVGContainer>
         <div>
-          <Something to="/recipes/intro">
+          <Button to="/recipes/intro">
             Start cooking
-          </Something>
+          </Button>
         </div>
       </div>
     </Container>
