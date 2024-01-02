@@ -22,6 +22,7 @@ Filling:
  0.5 tbsp Ground nutmeg
  0.5 tbsp Vanilla extract
  0.5 tbsp Ground cinnamon
+   4 tbsp Cornflour
      600g Cherries
      120g Caster sugar
      25ml Amaretto
