@@ -3,25 +3,25 @@ import styled from 'styled-components';
 import Link from '@docusaurus/Link';
 import HeroImage from '@site/static/img/hero.svg';
 
-const Container = styled.header`
-  position: relative;
+const Container = styled.div`
   overflow: hidden;
-  display: flex;
+  display: block;
   height: calc(100vh - 60px);
-  align-items: center;
+  padding: 60px;
   text-align: center;
 `;
 
 const SVGContainer = styled.div`
-  display: inline-block;
   height: 65%%;
 	width: 65%;
-	overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
 `;
 
 const Button = styled(Link)`
   color: var(--ifm-button-color);
-  display: inline - block;
+  display: inline-block;
   line-height: 1.5;
   font-size: 1.18125rem;
   font-weight: 700;
@@ -39,23 +39,17 @@ const Button = styled(Link)`
   &:hover {
     background-position: right center;
     text-decoration: none;
-    color: var(--ifm-background-color);
+    color: var(--ifm-color-text);
   }  
 `;
 
 const Header = () => {
   return (
     <Container>
-      <div>
-        <SVGContainer>
-          <HeroImage title="Docusaurus Logo" />
-        </SVGContainer>
-        <div>
-          <Button to="/recipes/intro">
-            Start cooking
-          </Button>
-        </div>
-      </div>
+      <SVGContainer>
+        <HeroImage title="Docusaurus Logo" />
+      </SVGContainer>
+      <Button to="/recipes/intro">Start cooking</Button>
     </Container>
   )
 };
