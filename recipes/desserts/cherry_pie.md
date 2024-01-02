@@ -11,11 +11,11 @@ pagination_next: null
 ```markdown
 Pastry:
 
- 2 tbsp Water
- 1 tbsp Olive oil
-   300g Plain flour
-   180g Unsalted butter
-    90g Caster sugar
+ 30.6g Water
+ 15.6g Olive oil
+  450g Plain flour
+  270g Unsalted butter
+  135g Caster sugar
 
 Filling:
 
