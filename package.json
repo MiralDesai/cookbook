@@ -27,7 +27,7 @@
     "styled-components": "^6.4.1"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^3.10.0"
+    "@docusaurus/module-type-aliases": "^3.10.1"
   },
   "browserslist": {
     "production": [
